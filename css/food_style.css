@@ -1,0 +1,345 @@
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    
+    .row {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .hero {
+        position: relative;
+        width: 100%;
+        top: 50%;
+        left: 10%;
+        /*    transform: translate(-50%, -50%);*/
+        color: white;
+    }
+    
+    h2 {
+        text-shadow: 3px 2px red;
+    }
+    
+    #logo {
+        height: 40px;
+        width: 100%;
+        margin-top: 1px;
+    }
+    
+    .head {
+        background-color: white;
+    }
+    
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/hero_food.jpg);
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        margin-top: -1%;
+        background-attachment: fixed;
+        margin: 0px;
+        padding: 0px;
+    }
+    /*.livicon {
+    display: inline-block;
+    line-height: inherit;
+    vertical-align: middle;
+    height: 18px!important;
+    width: 30%;
+    }*/
+    
+    header>div>h2 {
+        color: white;
+    }
+    
+    #navigation>li>a {
+        font-size: 20px;
+        margin-top: 20px;
+        color: black;
+    }
+    
+    #navigation>li>a:hover {
+        color: #e67e22;
+        /*margin-bottom: 2px solid #e67e22;
+    /*transition: all 0.5s ease-in;
+    /*padding: 50px 0px;*/
+    }
+    /*.main-nav {
+    list-style: none;
+    float: right;
+    text-decoration: none;
+    }
+
+    .main-nav>li {
+    margin-top: 5%;
+    display: inline-block;
+    margin-left: 20px;
+    }
+
+
+    /*.main-nav>li>a {
+    font-size: 20px;
+    color: white;
+    }
+    */
+    
+    header>div>li>a:hover {
+        color: #e67e22;
+        margin-bottom: 2px solid #e67e22;
+        transition: all 0.5s ease-in;
+        padding: 50px 0px;
+    }
+    
+    .btn {
+        margin-left: 0px;
+        border-radius: 2px solid #e67e22;
+    }
+    
+    .button {
+        margin-top: 50px;
+    }
+    
+    .btn-info {
+        background-color: #e67e22;
+    }
+    
+    .feature {
+        margin-top: 7%;
+    }
+    
+    .row {
+        margin-top: 3%;
+    }
+    
+    .content {
+        text-align: justify;
+        font-size: 20px;
+    }
+    
+    feature {
+        margin: 0px 0px 0px 70px;
+    }
+    
+    .meal {
+        margin: 3% 0px 0px -30px;
+    }
+    
+    .meal-showcase {
+        list-style: none;
+        width: 100%;
+    }
+    
+    .meal-foto {
+        width: 350px;
+        height: 250px;
+    }
+    
+    .meal-showcase>li {
+        display: inline-block;
+        margin-top: 4%;
+    }
+    
+    figure {
+        overflow: hidden;
+    }
+    
+    figure-caption {
+        margin-right: 0px;
+    }
+    
+    i {
+        color: red;
+    }
+    
+    figure>img {
+        width: 100%;
+        height: auto;
+        transform: scale(1.15);
+        transition: all 0.5s;
+    }
+    
+    figure>img:hover {
+        transform: scale(1.50);
+    }
+    
+    .cities {
+        margin-top: 6%;
+    }
+    
+    .btn-block {
+        /*color: white;*/
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+    
+    .gap {
+        margin-top: 40px;
+    }
+    
+    .sub {
+        display: inline-block;
+        margin-top: 1%;
+    }
+    
+    .sub1 {
+        display: inline-block;
+        float: right;
+    }
+    
+    .foot li {
+        list-style: none;
+    }
+    
+    footer {
+        margin-top: 3px;
+        background-color: grey;
+    }
+    
+    .social {
+        margin-top: -0.5%;
+        padding-right: 1em;
+    }
+    
+    .text-right {
+        margin-top: 10px;
+    }
+    
+    .text-left 1 {
+        margin-top: -20px;
+    }
+    
+    .btn-success {
+        width: 20%;
+        margin-left: 30%;
+    }
+    
+    .right {
+        float: left;
+        margin-top: 5%;
+    }
+    
+    .left {
+        float: right;
+    }
+    
+    .page {
+        margin-top: 30%;
+    }
+    
+    #frame {
+        margin-top: 10%;
+    }
+    
+    iframe {
+        margin-top: 5%;
+        width: 100%;
+        height: 500px;
+    }
+    
+    .form {
+        margin-top: 10%;
+    }
+    
+    .media-object {
+        width: 45px;
+    }
+    
+    #join {}
+    
+    .btn-success {
+        margin-top: 10%;
+        margin-left: 40%;
+    }
+    
+    .inner {
+        width: 100%;
+    }
+    
+    .carousel-indicators .active {
+        height: 3px;
+        border-radius: 0px;
+        width: 30px;
+        color: red;
+    }
+    
+    .carousel {
+        margin-top: 7%;
+    }
+    
+    #myCarousel1 {
+        display: none;
+    }
+    /*menu modal*/
+    
+    .menu {
+        background-color: red;
+        height: 50px;
+    }
+    
+    .menu-Head {
+        margin-top: 1px;
+    }
+    
+    .item li {
+        list-style: none;
+    }
+    
+    .item {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    
+    .rupee li {
+        list-style: none;
+    }
+    
+    .rupee {
+        margin-left: -80px;
+        font-size: 20px;
+    }
+    
+    .m-foot {
+        background-color: beige;
+        height: 70px;
+    }
+    
+    .wrapper p {
+        position: relative;
+        margin: 0;
+        text-shadow: 3px 2px red;
+        font-size: 40px;
+        /*white-space: nowrap;*/
+        animation: marquee 10s linear infinite;
+    }
+    
+    @keyframes marquee {
+        0% {
+            transform: translateX(0%);
+        }
+        100% {
+            transform: translateX(200%);
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+        #myMeal {
+            display: none;
+        }
+        #myCarousel1 {
+            display: block;
+        }
+        .head {
+            background-color: darkorange;
+        }
+        #order {
+            margin-left: 10%;
+        }
+        .carousel-inner > .item > img {
+            margin: 0 auto;
+        }
+    }
