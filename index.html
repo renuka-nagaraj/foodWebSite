@@ -7,10 +7,12 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/food_style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--<srcipt>new WOW().init();</srcipt>-->
 </head>
 
 <body>
@@ -43,7 +45,7 @@
             </nav>
             <!--hero part  started -->
             <div class="container hero">
-                <h2>GoodBye JunkFood<br>Hello to healthy food</h2>
+                <h2><p><em class="animated flash">GoodBye JunkFood</em></p><p><em class="animated flash">Hello to healthy food</em></p></h2>
                 <div class="button"> <a href="#myMeal" class="btn btn-info">Show Me More</a> <a href="#myMeal" class="btn btn-info">I Am Hungry</a> </div>
             </div>
         </div>
@@ -114,6 +116,7 @@
             </ul>
         </section>
     </div>
+    <!--Meal section for mob view-->
     <div id="myCarousel1" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -143,7 +146,7 @@
             </div>
         </div>
     </div>
-    <div id="order"> <a href="#orderModal" role="button" class="btn btn-success" data-toggle="modal" data-target="#orderModal">Order Items</a> </div>
+    <div id="order"> <a href="#orderModal" role="button" class="btn btn-success" data-toggle="modal" data-target="#orderModal">Order</a> </div>
     <!--carousel-->
     <div class="container carousel">
         <div class="wrapper">
@@ -199,9 +202,11 @@
             </div>
         </section>
     </div>
+    <!--Next page alignment-->
     <ul class="pager">
         <li><a href="Page2.html">Next</a></li>
     </ul>
+    <!--footer section-->
     <footer>
         <div class="container">
             <div class="row foot">
@@ -255,6 +260,7 @@
             </div>
         </div>
     </footer>
+    <!--model-->
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
             <!-- Modal content-->
@@ -265,7 +271,6 @@
                 </div>
                 <div class="modal-body">
                     <input type="text" placeholder="Name" class="form-control">
-                    <br>
                     <input type="email" placeholder="Email" class="form-control">
                     <br>
                     <input type="password" placeholder="Password" class="form-control"> </div>
@@ -275,6 +280,7 @@
             </div>
         </div>
     </div>
+    <!--model for menu item-->
     <div class="modal fade" id="orderModal" role="dialog">
         <div class="modal-dialog">
             <!-- Modal content-->

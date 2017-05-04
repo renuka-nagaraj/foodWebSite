@@ -281,6 +281,10 @@
         height: 50px;
     }
     
+    .em {
+        animation: pulse 5s infinite;
+    }
+    
     .menu-Head {
         margin-top: 1px;
     }
